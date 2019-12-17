@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="">
+	<title>Video Game # I.A.</title>
+	
+	<!--ESTILOS BOOSTRAP-->
+	<link rel="stylesheet" href="Estilos Boostrap/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background: #B2B2B2">
+	<table>
+		<tr>
+			<td class="cell" id="0"> </td>
+			<td class="cell" id="1"> </td>
+			<td class="cell" id="2"> </td>
+		</tr>
+
+		<tr>
+			<td class="cell" id="3"> </td>
+			<td class="cell" id="4"> </td>
+			<td class="cell" id="5"> </td>
+		</tr>
+
+		<tr>
+			<td class="cell" id="6"> </td>
+			<td class="cell" id="7"> </td>
+			<td class="cell" id="8"> </td>
+		</tr>
+	</table>
+
+	<div class="endgame">
+		<div class="text"></div>
+	</div>
+	
+
+
+
+	<!-- apartado del buscador y titulo-->
+        <nav class="navbar navbar-expand-lg bg-dark"><!--INICIO NAVEGACION-->
+            <div class="selectSym">
+				<br>
+				<p style="color: white">Selecciona el símbolo</p>
+				<button class="btn btn-primary" onClick="selectSym('X')">X</button>
+				<button class="btn btn-primary" onClick="selectSym('O')">O</button>
+			</div>
+            
+            <ul class="navbar navbar-expand-lg bg-dark ml-auto">
+                
+
+                    <!-- botón de Busqueda -->
+                   <button class="btn btn-outline-danger" onClick="startGame()">
+                   Reiniciar Juego</button>
+                
+            </ul>
+        </nav><!--FIN NAVEGACION-->
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
